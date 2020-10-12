@@ -637,6 +637,15 @@ footer .hubungi i {
 footer .hubungi i:hover {
     color: #ececec;
 }
+.copyright {
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+    padding-left: 8.8rem;
+    padding-bottom:1rem;
+    color: white;
+    background-color: #28B14A;
+}
 @media screen and (max-width:576px){
     header {
         display: flex;
@@ -753,7 +762,7 @@ footer .hubungi i:hover {
     header.sticky .nav__list li .masuk-btn2 {
         color: white;
     }
-    }
+    
     header.sticky .header__logo2 {
         color: rgb(0, 0, 0);
     }
